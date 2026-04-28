@@ -94,6 +94,3 @@ streamlit run interface.py
 - Agregar historial conversacional con memoria por sesion
 - Añadir tests basicos de carga de PDF e indexado
 
-## Licencia
-
-Define aqui la licencia que quieras usar (por ejemplo, MIT).
