@@ -1,6 +1,8 @@
-# Brain AI - Asistente de PDFs con RAG
+# Asistente de Textos - Asistente de PDFs con RAG
 
-Aplicacion para hacer preguntas sobre documentos PDF usando RAG (Retrieval-Augmented Generation) con LangChain, OpenAI embeddings y ChromaDB.
+**🔗 Demo en vivo: https://isabels-rag-assistant.streamlit.app**
+
+Aplicacion para hacer preguntas sobre documentos PDF usando RAG (Retrieval-Augmented Generation) con LangChain, OpenAI embeddings y ChromaDB. Las respuestas se basan solo en el documento e incluyen citas de pagina.
 
 modo de uso:
 - Interfaz web con Streamlit en `interface.py`
@@ -89,8 +91,6 @@ streamlit run interface.py
 
 ## Mejoras recomendadas
 
-- Persistir y reutilizar la base vectorial en Streamlit (`persist_directory`)
-- Permitir elegir modelo por variable de entorno
 - Agregar historial conversacional con memoria por sesion
 - Añadir tests basicos de carga de PDF e indexado
 
